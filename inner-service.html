@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Business</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick-theme.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+<section class="header sticky">
+    <div class="header-one px-5">
+        <div class="get-quet d-flex justify-content-between py-3">
+            <ul class="list-unstyled d-flex mb-0">
+                <li>
+                    <a href="get-quote.html">Get a Quote</a>
+                </li>
+                <!-- <li>
+                    <a href="#!">Load Board</a>
+                </li>
+                <li>
+                    <a href="#!">Track Shipment</a>
+                </li> -->
+                <li><a href="contact-us.html">Contact Us</a></li>
+            </ul>
+            <ul class="list-unstyled d-flex mb-0 login-sec">
+                <li>
+                    <a href="login.html"><i class="fa fa-user me-3"></i> Login</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="header-main px-5 py-3">
+        <div class="ship-head d-flex justify-content-between align-items-center">
+            <ul class="list-unstyled d-flex align-items-center mb-0">
+                <li>
+                    <a href="index.html" class="brand-logo">
+                        <img src="assets/images/logo-w.png" alt="" >
+                    </a>
+                </li>
+                <li>
+                    <a href="services.html">Services</a>
+                </li>
+                <li>
+                    <a href="blog.html">Blog</a>
+                </li>
+                <li>
+                    <a href="about.html">Our Company</a>
+                </li>
+            </ul>
+            <div class="search-box">
+                <div class="text-end open-search-box"><i class="fa fa-search fa-cha me-3"></i>Search             
+            </div>
+            <form action="" class="search-box-form">
+                <input type="text" class="text search-input" placeholder="Type here to search..." />
+            </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="banner-service my-5 pb-5 pt-4">
+    <div class="banner-contnet mb-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 my-3">
+                    <div class="content-description">
+                        <h1> <b>Industry-<span class="colored-bg" >Leading</span></b>  Intermodal Rail Services</h1>
+                        <p>Our mission is <b>to create the most efficient transportation network in North America</b> so we can drive value for you and your business.</p>
+                        <div class=" button-main d-flex ">
+                            <div class="btn-one me-4">
+                                <a href="#!"> Let's connect</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 my-3">
+                    <div class="banner-img">
+                        <img src="assets/images/intermodal-bnsf-locomotive-bridge.png" alt="" class="w-100">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="benefits-intermodal mt-5 py-5">
+    <div class="container">
+        <div class="benefit-title">
+            <h2 ><b>Benefits of Intermodal Shipping </b> with J.B. Hunt </h2>
+        </div>
+        <div class="row justify-content-around ">
+            <div class="col-lg-5">
+                <div class="extensive-rail">
+                    <h2>Extensive Rail Network</h2>
+                    <p>We have long-standing relationships with major intermodal rail providers which create service you can count on.</p>
+                    <ul>
+                        <li>Priority loading of all premium service level shipments</li>
+                        <li>Expedited and temperature-controlled service available on select routes</li>
+                    </ul>
+                    <div class="buttons-header button-main d-flex ">
+                            <div class="btn-three me-4">
+                                <a href="#!"> Let's connect</a>
+                            </div>
+                        </div>
+                </div>
+            </div>
+            <div class="col-lg-5">
+                <div class="extensive-rail">
+                    <h2>International Reach</h2>
+                    <p >Streamline your global supply chain with air, truck, rail and ocean freight transport.</p>
+                    <ul>
+                        <li>Rail and truckload services transport through the U.S., Canada and Mexico via access to third-party providers that extend the globe</li>
+                        <li>Multi-year, multi-vessel agreement allowing customers to accelerate overseas shipping from Asia</li>
+                    </ul>
+                    <div class="buttons-header button-main d-flex ">
+                            <div class="btn-three me-4">
+                                <a href="#!"> Find out more</a>
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="play-vedio-btn">
+    
+        <div class="video-wrapper">
+        	<div class="video-container" id="video-container">
+        		<video controls id="video" preload="metadata" poster="//cdn.jsdelivr.net/npm/big-buck-bunny-1080p@0.0.6/poster.jpg">
+        			<source src="//cdn.jsdelivr.net/npm/big-buck-bunny-1080p@0.0.6/video.mp4" type="video/mp4">
+        		</video>
+
+        		<div class="play-button-wrapper">
+        			<div title="Play video" class="play-gif" id="circle-play-b">
+        				<!-- SVG Play Button -->
+        				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80">
+        					<path d="M40 0a40 40 0 1040 40A40 40 0 0040 0zM26 61.56V18.44L64 40z" />
+        				</svg>
+        			</div>
+        		</div>
+        	</div>
+        </div>
+</section>
+
+
+
+<section class="largest-own-company py-5">
+    <div class="container">
+        <div class="largest-own-title text-center">
+            <h2>We have the world's largest company-owned intermodal fleet with...</h2>
+        </div>
+        <div class="row ">
+            <div class="col-lg-4 my-4">
+                <div class="largest-chassis text-center">
+                    <h2>116,000+</h2>
+                    <p>53' Containers</p>
+                </div>
+            </div>
+            <div class="col-lg-4 my-4">
+                <div class="largest-chassis text-center">
+                    <h2>95,500+</h2>
+                    <p>Chassis</p>
+                </div>
+            </div>
+            <div class="col-lg-4 my-4">
+                <div class="largest-chassis text-center">
+                    <h2>6,500+</h2>
+                    <p>Dray fleet of trucks</p>
+                </div>
+            </div>
+        </div>
+        <div class="largest-own-title  text-center">
+            <h2>and counting.</h2>
+        </div>
+    </div>
+</section>
+
+
+<section class="banner-service quantum my-5  pt-4">
+    <div class="banner-contnet mb-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 my-3">
+                    <div class="content-description">
+                        <h1> <b class="colored-bg">Quantum</b>: A Differentiated Intermodal Experience</h1>
+                        <p>Get consistency, agility and speed for your service-sensitive highway freight—with the cost savings of intermodal. As a joint service with BNSF, Quantum provides:</p>
+                        <ul>
+                            <li>More than 95 percent on-time delivery</li>
+                            <li>Dynamic mode selection that preserves agility</li>
+                            <li>Customized solutions at scale </li>
+                            <li>24/7 oversight of shipments from door to door</li>
+                            <li>Proactive intervention to avoid or mitigate service interruptions</li>
+                            <li>A differentiated experience no other provider can offer</li>
+                        </ul>
+                        <div class=" button-main d-flex ">
+                        <div class="btn-one me-4">
+                                <a href="#!"> Let's connect</a>
+                            </div>
+                            <div class="btn-two">
+                                <a href="#!"> Read Case study</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 my-3">
+                    <div class="banner-img">
+                        <img src="assets/images/intermodal-bnsf-locomotive-bridge.png" alt="" class="w-100">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="case-studies-block">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 my-3">
+                <div class="multiple-transloading">
+                    <div class="case-img">
+                        <img src="assets/images/blog/BNSF-GMXT-JBH-Eagle-Pass-Gateway.png" alt="" class="w-100">
+                    </div>
+                    <div class="case-contnet">
+                            <h3 class="my-4">Multiple Transloading Points</h3>
+                            <p>Our transloading services support some of the largest ocean ports and the largest land point of entry into the U.S., which helps move freight faster and reduce unnecessary costs.</p>
+                                <div class="case-studies-arrow-btn text-end">
+                                    <a href="#!"> Discover Transloading <i class="fa fa-long-arrow-right ms-2"></i></a>
+                                </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4  my-3">
+                <div class="multiple-transloading">
+                    <div class="case-img">
+                        <img src="assets/images/blog/BNSF-GMXT-JBH-Eagle-Pass-Gateway.png" alt="" class="w-100">
+                    </div>
+                    <div class="case-contnet">
+                            <h3 class="my-4">Multiple Transloading Points</h3>
+                            <p>Our transloading services support some of the largest ocean ports and the largest land point of entry into the U.S., which helps move freight faster and reduce unnecessary costs.</p>
+                                <div class="case-studies-arrow-btn text-end">
+                                    <a href="#!"> Discover Transloading <i class="fa fa-long-arrow-right ms-2"></i></a>
+                                </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4  my-3">
+                <div class="multiple-transloading">
+                    <div class="case-img">
+                        <img src="assets/images/blog/BNSF-GMXT-JBH-Eagle-Pass-Gateway.png" alt="" class="w-100">
+                    </div>
+                    <div class="case-contnet">
+                            <h3 class="my-4">Multiple Transloading Points Multiple Transloading Points</h3>
+                            <p>Our transloading services support some of the largest ocean ports and the largest land point of entry into the U.S., which helps move freight faster and reduce unnecessary costs.</p>
+                                <div class="case-studies-arrow-btn text-end">
+                                    <a href="#!"> Discover Transloading <i class="fa fa-long-arrow-right ms-2"></i></a>
+                                </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+<section class="banner-service my-5 pb-5 pt-4">
+    <div class="banner-contnet mb-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 my-3">
+                    <div class="content-description">
+                        <h1>  Shipper 360™ Helps You Ship <span class="colored-bg" >Smarter</span></h1>
+                        <p>Streamline your shipping strategy by managing all your shipments from one easy-to-use resource. Shipper 360 connects you to intermodal shipping options and provides insights that can help you run your business. Try it today and book your next intermodal shipment in just three minutes.</p>
+                        <div class=" button-main d-flex ">
+                        <div class="btn-one me-4">
+                                <a href="#!"> Sign Up</a>
+                            </div>
+                            <div class="btn-two">
+                                <a href="#!"> Explore Shipper 360</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 my-3">
+                    <div class="banner-img">
+                        <img src="assets/images/a40i8824-1.png" alt="" class="w-100">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="frequently-asked my-5">
+    <div class="container">
+        <div class="frequent-asked-title py-5">
+            <h2>Frequently Asked Questions</h2>
+        </div>
+        <div class="row justify-content-center">
+            <div class="col-lg-10">
+            <div class="service-accordiiana">
+                    <div class="accordion" id="accordionPanelsStayOpenExample">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                                What is intermodal?
+                                </button>
+                            </h2>
+                            <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingOne">
+                                <div class="accordion-body pt-5 ms-4">
+                                    <p>Intermodal transportation is the moving of freight by two or more modes of transportation, usually from a train to a tractor or ship or vice versa.</p>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                                What is transloading?
+                                </button>
+                            </h2>
+                            <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+                                <div class="accordion-body py-5 ms-4">
+                                        <p>Ocean cargo is typically shipped in 20- or 40-foot containers. Transloading is when your freight is consolidated from international ocean containers into 53-foot containers/trailers for inland transport.</p>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                                How do you ship freight and remain carbon neutral?
+                                </button>
+                            </h2>
+                            <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+                                <div class="accordion-body pt-5 ms-4">
+                                   <p> Intermodal transportation can help companies ship freight in a more sustainable way. Intermodal shipping reduces greenhouse emissions by 65 percent compared to over-the-road trucking. Additionally, J.B. Hunt’s CLEAN Transport™ program takes advantage of the benefits of shipping via rail.</p>
+                                   
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="panelsStayOpen-headingFour">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false" aria-controls="panelsStayOpen-collapseFour">
+                                What is the best method for shipping freight internationally?
+                                </button>
+                            </h2>
+                            <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingFour">
+                                <div class="accordion-body pt-5 ms-4">
+                                <p>The best method for shipping freight internationally is with J.B. Hunt’s Intermodal and Transloading Services. With a multi-year, multi-vessel agreement, 115,000+ company-owned 53’ intermodal containers, multiple transloading locations and our mode-neutral mindset, we will find the best solution for your supply chain.</p>
+                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="footer pt-5 pb-4">
+    <div class="container">
+        <div class="row justify-content-between">
+            <div class="col-lg-3">
+                <div class="shipment-foot">
+                    <div class="title">
+                        <h3>About us</h3>
+                    </div>
+                    <div class="content">
+                    <div class="footer-logo my-3">
+                        <img src="assets/images/logo.png" alt="" >
+                    </div>
+                        <p>Our company's technology solution, J.B. Hunt 360˚, is leading the industry as a digital freight matching platform and changing the way carriers and customers collaborate and do business.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-2">
+                <div class="shipment-foot ">
+                    <div class="title">
+                        <h3>Helpful Links</h3>
+                    </div>
+                    <ul class="list-unstyled">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="contact-us.html">Contact Us</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-2">
+                <div class="shipment-foot">
+                    <div class="title">
+                        <h3>services</h3>
+                    </div>
+                    <ul class="list-unstyled">
+                        <li><a href="#!">Final Mile Services</a></li>
+                        <li><a href="#!">Highway Services</a></li>
+                        <li><a href="#!">Intermodal</a></li>
+                        <li><a href="#!">International</a></li>
+                        <li><a href="#!">Managed Logistics</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-3">
+                <div class="shipment-foot">
+                    <div class="title">
+                        <h3>CONNECT WITH US</h3>
+                    </div>
+                    <ul class="list-unstyled  justify-content-between">
+                        <li><a href="#!" class="d-flex align-items-center"><i class="fa fa-facebook-official me-3"></i> Facebook</a></li>
+                        <li><a href="#!" class="d-flex align-items-center"><i class="fa fa-linkedin-square me-3"></i>Linkedin</a></li>
+                        <li><a href="#!" class="d-flex align-items-center"><i class="fa fa-instagram me-3"></i>Instagram</a></li>
+                        <li><a href="#!" class="d-flex align-items-center"><i class="fa fa-youtube-play me-3"></i>Youtube</a></li>
+                    </ul>
+                    
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="row mt-5 justify-content-center">
+            <div class="col-lg-9">
+                <div class="bootom-footer text-center">
+                    <p>All rights reserved by My Business | Designed By
+<a href="https://zonewebsites.us/"> Zonewebsites</a></p>
+                </div>
+            </div>
+            <!-- <div class="col-lg-3">
+                <div class="footer-bottom-links">
+                    <ul class="d-flex list-unstyled justify-content-between">
+                        <li><a href="#!">Privacy Policy</a></li>
+                        <li><a href="#!">California Privacy Policy</a></li>
+                    </ul>
+                </div>
+            </div> -->
+        </div>
+    </div>
+</section>
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script src="assets/js/script.js"></script>
+<script>
+$(document).ready(function(){
+  $(".open-search-box").click(function(){
+    $(".fa-cha").toggleClass("fa-times");
+    $(".search-box-form").toggle(500);
+  });
+});
+</script>
+<script>
+
+
+            $(window).scroll(function () {
+
+                var sticky = $(".sticky"),
+
+                    scroll = $(window).scrollTop();
+
+
+
+
+                if (scroll >= 100) sticky.addClass("fixed");
+
+                else sticky.removeClass("fixed");
+
+            });
+</script>
+</body>
+</html>
+
